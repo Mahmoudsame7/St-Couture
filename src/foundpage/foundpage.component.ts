@@ -6,12 +6,12 @@ import { ContentComponent } from '../content/content.component';
 import { MenuComponent } from '../menu/menu.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-foundpage',
   standalone: true,
-  imports: [RouterOutlet,HeaderComponent,FooterComponent,ContentComponent,MenuComponent],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  imports: [RouterOutlet,HeaderComponent,FooterComponent,MenuComponent],
+  templateUrl: './foundpage.component.html',
+  styleUrl: './foundpage.component.css'
 })
-export class AppComponent {
-  title = 'Couture';
+export class FoundpageComponent {
+
 }
